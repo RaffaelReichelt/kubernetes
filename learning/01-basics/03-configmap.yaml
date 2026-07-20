@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-html
+  namespace: learn-basics
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+      <head><title>Hallo aus der ConfigMap</title></head>
+      <body>
+        <h1>Diese Seite kommt aus einer ConfigMap, nicht aus dem Image.</h1>
+      </body>
+    </html>

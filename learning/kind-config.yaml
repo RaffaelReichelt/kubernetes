@@ -1,0 +1,8 @@
+# Entspricht dem bereits laufenden Cluster "learn" (1 Control-Plane + 2 Worker).
+# Neu erstellen mit: kind create cluster --name learn --config kind-config.yaml
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+  - role: worker
+  - role: worker
