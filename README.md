@@ -1,0 +1,1 @@
+Dies wird mein Kubernetes Projekt, iin dem ich meinen bisherigen Swarm Stack auf Kubernetes migriere.
